@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	font-family:Arial, Verdana, sans-serif;
+	}
+body{
+	background-color:#888888;
+	margin:0px;		/*header footer 貼齊*/
+	}
+/*Header START*/
+header{
+	background-color:#ffffff;
+	}
+header #title_icon{
+	width: 160px;
+	//height:80px;
+	margin: 24px 100px;
+}
+/*不用nav，因為nav似乎只能有一個*/
+.nav{
+	width:100%;
+	background-image:linear-gradient(to bottom, #ffffff, #fafafa, #eaeaea);
+	border:1px solid #d2d2d2;
+}
+#nav1{
+	top:auto;
+	}
+
+#nav2{
+	position:fixed;
+	top:0px;
+	z-index:10000;
+	-webkit-box-shadow: 0px 1px 8px #444;
+	-moz-box-shadow: 0px 1px 8px #444;
+	box-shadow: 0px 1px 8px #444;	 
+	}
+#nav2 #s_logo{
+	padding:5px;
+	border:none;
+}
+#nav2 #s_logo img{
+	width:37px;
+}
+.nav ul{
+	margin-left:60px;
+	}
+.nav li{
+	display:inline;
+	border-right:1px solid #d2d2d2;
+	padding:1em 1em;
+	cursor:pointer;
+	font-weight:bold;
+	float:left;
+	}
+.nav .not_list{
+	float:right;
+	margin-right:200px;
+}
+.nav .not_list li{
+	border-right:none;
+
+}
+.nav .not_list li img{
+	height:20px;
+}
+.nav .not_list li span{
+	color:#888888;
+	font-weight:normal;
+}
+.nav .not_list li:hover{
+	background-image:none;
+}
+.nav ul li:hover{
+	//background-color:#f2a800;
+	background-image:linear-gradient(to top, #ffffff, #fafafa, #eaeaea);
+	}
+/*Header END*/
+/*主要內容*/
+.content{
+	margin-left:60px;
+	margin-right:60px;
+	font-size:1.25em;
+	
+}
+.content h2{
+	font-weight:bold;
+}
+.content h3{
+	font-weight:bold;
+	margin-bottom:1em;
+}
+.content p{
+	margin-bottom:2em;
+}
+.content #date{
+	/*color:#a2a2a2;*/
+}
+.content .aka{
+	color:#ff0000;
+}
+.content .ao{
+	color:#0000ff;
+}
+.content p .bold{
+	font-weight:bold;
+}
+.content ul,ol{
+	font-size:0.8em;
+	margin-bottom:2em;
+}
+.content #quiz{
+	width:100%;
+	font-size:2em;
+	margin-bottom:1em;
+	text-align:center;
+}
+.content .banner img{
+	width:100%;
+	margin-bottom:1em;
+	margin-top:1em;
+}
+.content #timebox{
+	width:100%;
+	font-size:5em;
+	text-align:center;
+	padding-top:60px;
+}
+/*Footer START*/
+footer{
+	background-color:#000;
+	color:#fff;
+	}
+footer p{
+	margin:2em auto;
+	text-align:center;
+}
+footer #rss img{
+	width:18px;
+}
+/*Footer END*/
+
